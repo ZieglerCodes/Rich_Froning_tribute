@@ -1,0 +1,66 @@
+/* Font */
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: .3em;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Top bottom container */
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.row1 {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}
+
+.bigfont {
+  font-size: 10em;
+}
+
+
+
+
+/* Middle Container */
+.container2 {
+  width: 100%;
+  height: 90vh;
+  background-color: white;
+}
+
+iframe {
+  height: 100vh;
+  width: 90vh;
+}
+.text-center {
+  justify-content: center;
+}
+
+a {
+  font-weight: bold;
+  color: #ff1c00;
+}
+
+/* Bottom container */
+.container3 {
+  background-color: black;
+  color: white;
+  width: 100%;
+  padding-bottom: 2em;
+  padding-top: 5em;
+}
+img {
+  height: 80vh;
+  width: auto;
+  max-width: 100%
+}
